@@ -139,6 +139,9 @@ Click "Open in Browser" when the popup appears.
 
 ## Implementation Notes
 
+### Edited requirements.txt
+- Added `numpy<2.0,>=1.26.0`, `langchain-chroma`, `chromadb>=0.5` to requirements.
+
 ### Why These Choices?
 - **Chunk size 500**: Balances context and specificity
 - **Overlap 50**: Prevents cutting related information

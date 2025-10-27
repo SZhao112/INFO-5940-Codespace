@@ -59,7 +59,7 @@ def retrieve_context(vs, query, k=5):
     return results
 
 st.set_page_config(page_title="Document Q&A", page_icon="📚", layout="wide")
-st.title("📝 File Q&A with OpenAI")
+st.title("File Q&A with OpenAI")
 
 # init session state
 if "vectorstore" not in st.session_state:
@@ -127,7 +127,7 @@ if "messages" not in st.session_state:
 
 # show initial prompt only when empty
 if not st.session_state.messages and st.session_state.vectorstore is None:
-    st.info("💬 You can chat directly or 👈 upload documents for document-based Q&A")
+    st.info("You can chat directly or upload documents for document-based Q&A")
 
 # display chat history
 for msg in st.session_state.messages:

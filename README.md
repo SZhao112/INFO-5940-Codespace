@@ -8,10 +8,11 @@ This is a Retrieval-Augmented Generation (RAG) application that allows users to 
 ### Setup
 1. Make sure you're in the Codespace with all dependencies installed.
 2. Set your API key in .devcontainer/devcontainer.json and rebuild the environment
+3. Install all required package from requirements.txt by
+
 '''bash
 pip install -r requirements.txt
 '''
-3. Install all required package from requirements.txt by 
 
 
 ### Start the app
@@ -19,7 +20,7 @@ pip install -r requirements.txt
 streamlit run chat_with_pdf.py
 ```
 
-Click "Open in Browser" when the popup appears.
+Click "Open in Browser" when the popup appears or use ctrl(cmd for MacOS)+click on the link showed in terminal
 
 ## Features
 
